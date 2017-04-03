@@ -25,8 +25,8 @@ export const DoneButton = ({
       }]}
       >
         <View style={styles.full}>
-          <Text style={[styles.controllText, {
-            color: rightTextColor, paddingRight: 30,
+          <Text style={[styles.nextButtonText, {
+            color: rightTextColor
           }]}>
             {doneBtnLabel}
           </Text>
