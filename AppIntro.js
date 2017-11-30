@@ -1,5 +1,5 @@
 import assign from 'assign-deep';
-import React, { Component, PropTypes } from 'react';
+import React, { Component } from 'react';
 import {
   StatusBar,
   StyleSheet,
@@ -15,6 +15,7 @@ import Swiper from 'react-native-swiper';
 import DoneButton from './components/DoneButton';
 import SkipButton from './components/SkipButton';
 import RenderDots from './components/Dots';
+import PropTypes from 'prop-types'
 
 const windowsWidth = Dimensions.get('window').width;
 const windowsHeight = Dimensions.get('window').height;
